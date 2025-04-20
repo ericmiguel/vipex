@@ -1,6 +1,6 @@
 {
   "name": "vipex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vipex is a TypeScript library providing an object-oriented, strongly-typed wrapper around the popular ApexCharts charting library.",
   "type": "module",
   "engines": {
