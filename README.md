@@ -5,7 +5,7 @@
 # Vipex 🐍
 
 [![NPM Version](https://img.shields.io/npm/v/vipex)](https://www.npmjs.com/package/vipex)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/ericmiguel/vipex/ci.yml?branch=main)](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/ericmiguel/vipex/ci.yml?branch=main)](https://github.com/ericmiguel/vipex/actions)
 [![License](https://img.shields.io/github/license/ericmiguel/vipex)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
 
@@ -202,7 +202,7 @@ You can find more examples in the `/examples` directory.
     - `markers`: Configures point markers (`Markers` class).
     - `theme`: Configures the overall theme and palette (`Theme` class).
     - `plotOptions`: Configures options specific to chart types (accessed via `chart.plotOptions.bar`, `chart.plotOptions.pie`, etc., corresponding to classes like `BarOptions`, `PieOptions`).
-- **`toApexOptions(): ApexOptions` Method**: Returns the final configuration object compatible with the native ApexCharts API.
+- **`options: ApexOptions` Getter**: Returns the final configuration object compatible with the native ApexCharts API.
 
 ## 🤝 Contributing
 
